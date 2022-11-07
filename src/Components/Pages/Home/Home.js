@@ -4,11 +4,17 @@ const Home = () => {
     return (
         <div className='px-72 py-24'>
             <a href="" class="group relative block h-96">
+              
   <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
   <div
     class="relative flex  h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
   >
+    <img
+    alt="Developer"
+    src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+    class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+  />
     <div
       class="px-8 pb-8 transition-opacity group-hover:absolute group-hover:opacity-0"
     >
