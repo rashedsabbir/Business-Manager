@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className='lg:mx-36 mx-6 py-24'>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-rows-2 gap-12'>
-            <div>
+            
             <a href="" class="group relative block h-96">
               
               <span class="absolute inset-0 border-2 border-dashed border-black"></span>
@@ -31,19 +31,18 @@ const Home = () => {
                 <div
                   class="absolute p-8 opacity-0  transition-opacity group-hover:relative group-hover:opacity-100"
                 >
-                  <h3 class="mt-4 text-2xl font-medium">Go around the world</h3>
+                  <h3 class="mt-4 text-3xl font-medium">Visitor Only</h3>
             
-                  <p class="mt-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
-                    praesentium voluptatem omnis atque culpa repellendus.
+                  <p class="mt-4 text-xl">
+                    For those of you who want to see how this website works. All of the functionality are available with Rest Api.
                   </p>
             
-                  <p class="mt-8 font-bold">Read more</p>
+                  <p class="mt-8 font-bold">Click to visit now</p>
                 </div>
               </div>
               
             </a>
-            </div>
+            
             <a href="" class="group relative block h-96">
               
   <span class="absolute inset-0 border-2 border-dashed border-black"></span>
@@ -62,20 +61,19 @@ const Home = () => {
   />
       
 
-      <h2 class="mt-4 text-2xl font-medium">For TS Bustle Admin Only</h2>
+      <h2 class="mt-4 text-2xl font-medium">For Personal Use</h2>
     </div>
 
     <div
       class="absolute p-8 opacity-0  transition-opacity group-hover:relative group-hover:opacity-100"
     >
-      <h3 class="mt-4 text-2xl font-medium">Go around the world</h3>
+      <h3 class="mt-4 text-3xl font-medium">For Personal Use</h3>
 
-      <p class="mt-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
-        praesentium voluptatem omnis atque culpa repellendus.
+      <p class="mt-4 text-xl">
+        Only available for TS Bustle admins. All the admin functionality are available in the visitor section also. If you are a visitor please select the Visitor only option.
       </p>
 
-      <p class="mt-8 font-bold">Read more</p>
+      <p class="mt-8 font-bold">Login</p>
     </div>
   </div>
 </a>
